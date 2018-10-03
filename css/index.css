@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Spectral', serif;
+	background-color: #dcdde1;
+	color: black;
+	text-decoration: none;
+	padding-left: 80px;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+a{
+	color: rgb(180,180,180);
+	text-decoration: none;
+}
+a:hover{
+	color: rgba(180, 180, 180, 0.5);
+}
+
+li {
+	overflow-x: hidden;
+	margin-left: 35px;
+	margin-right: 35px;
+	font-size:20px;
+}
+
+#sidebar li{
+	overflow-x: hidden;
+	margin: 0px;
+	font-size:20px;
+	margin-top: 25px;
+}
+
+#sidebar ul{
+	padding: 0px;
+}
+
+i{
+	font-size: 25px;
+}
+
+
+.whiteblocks{
+	background-color: #f5f6fa;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+
+#sidebar{
+	margin: 0px;
+	position: fixed;
+	top: 0px; left: 0px; bottom: 0px;   
+	background-color: #2f3640; 
+	width: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+#myself{
+	text-align: center;
+	display: block;
+    padding: 150px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin-top: 0px;
+	
+}
+
+#socials{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 150px;
+
+}
+#socials-list{
+	margin:0px auto;
+ 	padding: 0px;
+   	display: flex;
+    flex-direction: row;
+   	text-align: center;
+   	margin-top: 45px;
+}
+
+#Travels-Title{
+	text-align: center; 
+	padding-top: 30px;
+}
+
+td{
+	padding-top: 50px;
+}
+.img-td{
+	padding-right: 50px;
+}
+
+.img-shadow{
+	box-shadow: 2px 2px 3px #999999;
+}
+
+#Voir-Plus{
+	background-color: #487eb0; padding: 8px; padding-left:30px; padding-right: 30px; border-radius: 35px; color: #f5f6fa ;
+}
+#Voir-Plus:hover{
+	background-color: rgba(72,126,176,0.8);
+}
