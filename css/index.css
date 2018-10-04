@@ -21,6 +21,7 @@ h2{
 a{
 	color: rgb(180,180,180);
 	text-decoration: none;
+	overflow-x: hidden;
 }
 a:hover{
 	color: rgba(180, 180, 180, 0.5);
